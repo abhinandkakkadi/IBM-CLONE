@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #868e96;
+
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* NAVIGATION */
+.navigation {
+  display: flex;
+
+  gap: 32px;
+  padding: 10px 20%;
+  font-size: 12px;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+}
+
+.down-icon {
+  padding-top: 3px;
+}
+
+.search-icon {
+  margin-left: auto;
+}
+
+/* HEADER SECTION */
+
+.main-header {
+  height: 40vh;
+  background-image: url(./images/header-image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-elements {
+  padding: 30px 20%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 40px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 32px;
+  flex: 1;
+  color: black;
+  width: 300px;
+}
+
+.header-elements p {
+  width: 300px;
+}
+
+.header-elements a {
+  background-color: #339af0;
+  width: fit-content;
+  padding: 9px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-icon {
+  width: 14px;
+  height: 14px;
+  stroke: white;
+}
+
+/* SECOND NAV */
+
+.second-nav {
+  font-size: 10px;
+  height: 50px;
+  background-color: #f1f3f5;
+  display: flex;
+  align-items: center;
+  padding: 0px 20% 0px 20%;
+  justify-content: space-between;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+}
+
+/* THIRD NAV */
+
+.third-nav {
+  height: 150px;
+  background-color: #f1f3f5;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20%;
+  height: 100%;
+}
+
+.third p {
+  width: 300px;
+}
+
+.third a {
+  background-color: #339af0;
+  width: fit-content;
+  padding: 9px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* MAIN SECTION 1 */
+
+.main-1 {
+  height: 150px;
+}
+
+.main-1 div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+
+  padding: 0px 40%;
+}
+
+.main-1 p {
+  width: 400px;
+}
+
+.main-1 a {
+  align-self: flex-start;
+  color: #339af0;
+}
+
+.ibm-pointer {
+  width: 14px;
+  stroke: #339af0;
+}
