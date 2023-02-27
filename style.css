@@ -189,11 +189,13 @@ h1 {
 }
 
 /* PHOTO QUOTE */
+
 .photo-quote {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   height: 300px;
+  align-items: center;
 }
 
 .photo-quote > img {
@@ -370,6 +372,7 @@ h1 {
 
 .footer {
   padding: 30px 20%;
+  background-color: #f1f3f5;
 }
 
 .footer-container {
@@ -377,6 +380,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   line-height: 2;
+  background-color: #f1f3f5;
 }
 
 .column-head {
@@ -387,4 +391,17 @@ h1 {
 /* CONTACT */
 
 .contact {
+  font-size: 10px;
+  background-color: #f1f3f5;
+}
+
+.border {
+  border-top: 1px solid #adb5bd;
+  width: 80%;
+  margin: 0 auto;
+}
+.contact {
+  padding: 10px 20%;
+  display: flex;
+  gap: 30px;
 }
