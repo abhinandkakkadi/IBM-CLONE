@@ -168,21 +168,24 @@ h1 {
 
 /* MAIN 2 */
 .main-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   font-size: 11px;
-  margin-bottom: 30px;
+  padding: 1px 20%;
+  margin-bottom: 3rem;
 }
 
-.main-2 > p {
-  justify-self: center;
-  font-weight: 700;
+.main-2-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.main-2-container p {
+  font-weight: 500;
   color: #495057;
 }
 
 .services {
   display: flex;
-  gap: 30px;
+  gap: 1rem;
 }
 
 /* PHOTO QUOTE */
@@ -190,14 +193,15 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  height: 300px;
 }
 
 .photo-quote > img {
   grid-column: 2;
 
   height: auto;
-  width: 400px;
-  justify-self: center;
+  width: 450px;
+  justify-self: start;
 }
 
 .photo-quote-text {
@@ -208,7 +212,7 @@ h1 {
 }
 
 .photo-quote-text-head {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   color: black;
 }
@@ -216,4 +220,52 @@ h1 {
 .photo-quote-text a {
   stroke: #339af0;
   color: #339af0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.photo-quote-text-body {
+  font-size: 12px;
+}
+
+/* SUB HEADER */
+.sub-header {
+  height: 40vh;
+  background-image: url(./images/sub-header.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub-header .header-elements h1 {
+  color: white;
+}
+
+.sub-header .header-elements p {
+  color: #f1f3f5;
+}
+
+/* MAIN-3 */
+.containers > div {
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: fit-content;
+}
+.containers p {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.icon-1 {
+  grid-column: 1;
+}
+
+.icon-2 {
+  grid-column: 2;
+  grid-row: -3;
+}
+
+.main3-icons {
+  width: 14px;
 }
